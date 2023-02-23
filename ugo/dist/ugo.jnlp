@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="uggo.jnlp">
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ugo.jnlp">
   <information>
-    <title>uggo</title>
+    <title>ugo</title>
     <vendor>Omnya</vendor>
     <description>null</description>
     <offline-allowed/>
@@ -9,8 +9,8 @@
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
     <jar href="lib\mysql-connector-java-8.0.19.jar" size="2356711" download="eager" />
-    <jar href="uggo.jar" size="14040" download="eager" />
+    <jar href="ugo.jar" size="15461" download="eager" />
   </resources>
-  <jfx:javafx-desc  width="800" height="600" main-class="tn.esprit.tests.Main"  name="uggo" />
+  <jfx:javafx-desc  width="800" height="600" main-class="ugo.Ugo"  name="ugo" />
   <update check="always"/>
 </jnlp>
